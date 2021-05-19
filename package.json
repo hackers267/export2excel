@@ -1,13 +1,16 @@
 {
   "name": "export2excel",
   "version": "0.0.1",
-  "description": "",
+  "description": "export json to excel and download it",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["excel","xlsx"],
+  "author": {
+    "name": "silence_zhpf",
+    "email": "silence_zhpf@aliyun.com"
+  },
   "license": "ISC",
   "dependencies": {
     "file-saver": "^2.0.5",
